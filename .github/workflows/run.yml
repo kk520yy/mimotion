@@ -13,7 +13,7 @@ jobs:
       - name: Checkout codes
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.KKTOKEN }} #此处PAT需要申请，教程详见：README
+          token: ${{ secrets.CNMKK }} #此处PAT需要申请，教程详见：README
       - name: Update system and install zsh
         run: |
           sudo -E apt-get -qq update
